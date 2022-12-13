@@ -1,0 +1,53 @@
+.menubar-container {
+    margin-bottom: 30px;
+}
+
+@media screen and (min-width:600px) {
+    #search-bar {
+        width: 50vw;
+    }
+
+    .menubar-container {
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .menu-btns {
+        width: 40vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+}
+
+* {
+    margin: 0;
+}
+
+@media screen and (max-width:600px) {
+    #search-bar {
+        width: 90vw;
+
+    }
+
+    .menubar-container {
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .menu-btns {
+        width: 80vw;
+        margin: 10px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+}
+

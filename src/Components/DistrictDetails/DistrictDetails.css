@@ -1,0 +1,32 @@
+.state-header {
+    position: sticky;
+    top: 88px;
+    z-index: 100;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+
+@keyframes example {
+    from {
+        transform: scale(0.95);
+        box-shadow: 5px 10px 10px green;
+    }
+
+    to {
+        transform: scale(1.05);
+        box-shadow: 5px 10px 10px orange;
+    }
+}
+
+.district-cases {
+    border: white 1px solid;
+    border-radius: 5px;
+}
+
+.disrict-card:hover {
+    transform: scale(0.95);
+    animation-name: example;
+    animation-duration: 10s;
+    z-index: 10;
+    box-shadow: 5px 10px 10px orange;
+}

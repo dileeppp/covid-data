@@ -1,0 +1,11 @@
+.navbar-container {
+    text-align: center;
+}
+
+#flag-wheel {
+    display: flex;
+    justify-content: center;
+    width: 56vw;
+    align-items: center;
+    color: rgba(0, 255, 0, 0.699);
+}

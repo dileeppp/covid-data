@@ -1,0 +1,17 @@
+.cases {
+    border: grey 1px solid;
+    border-radius: 5px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.single-card:hover {
+    z-index: 10;
+    transform: scale(1.05);
+    box-shadow: 1px 1px 1px red;
+}
