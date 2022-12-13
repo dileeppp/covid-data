@@ -1,1 +1,1 @@
-api = "https://data.covid19india.org/data.json"
+Live Link :https://coviddd-dataa.netlify.app/
